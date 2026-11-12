@@ -32,11 +32,11 @@ public class JavaGame {
         JButton lessGreenButton = new JButton("Click to make less green");
 
         JButton worldSettingsButton = new JButton("World");     //World tab
-            JButton worldTypeButton = new JButton("World Type");
-                // World Types
-                JButton superflatButton = new JButton("Superflat");
-                JButton amplifiedButton = new JButton("Amplified");
-                JButton default1 = new JButton("Default");
+        JButton worldTypeButton = new JButton("World Type");
+        // World Types
+        JButton superflatButton = new JButton("Superflat");
+        JButton amplifiedButton = new JButton("Amplified");
+        JButton default1 = new JButton("Default");
 
         JButton gameButton = new JButton("Game");               //Game tab
             JButton gameModeButton = new JButton("Game Mode");
