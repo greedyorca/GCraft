@@ -17,7 +17,6 @@ public class JavaGame {
 
 
     public static void main(String[] args) {
-        int me = 12;
         JFrame gameWindow = new JFrame("Java Game");
         gameWindow.setSize(1280, 800);
         JLayeredPane layers = new JLayeredPane();
