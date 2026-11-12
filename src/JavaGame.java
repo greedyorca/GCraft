@@ -50,8 +50,8 @@ public class JavaGame {
         // In Game Creations
         final boolean[] createWorldPressed = {false};
 
-            // Movement Mechanics
-            PlayerCreator steve = new PlayerCreator();
+        // Movement Mechanics
+        PlayerCreator steve = new PlayerCreator();
 
             // Health Mechanics
             mainGameScreen.playerHealth= 20;
