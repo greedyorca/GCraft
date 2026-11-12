@@ -151,7 +151,7 @@ public class JavaGame {
         // Movement
         layers.add(steve, 3);
         // Creation/Destruction/Attacks Mechanics
-    layers.add(breakButton, 2);
+        layers.add(breakButton, 2);
         // Commands, Chat, and Exit Mechanics
     layers.add(cancelButton, 3);
     layers.add(inventoryExitButton, 2);
