@@ -2,8 +2,6 @@
 // 11/3/26-
 // Create a Basic Minecraft/Java Game
 
-import jdk.jfr.Category;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
@@ -209,29 +207,29 @@ public class JavaGame {
         layers.add(inventoryButton26, 3);
         layers.add(inventoryButton27, 3);
 
-    // Game Setup Layers
-    layers.setLayer(defaultBackdrop, 1);
-    layers.setLayer(worldCreationBackdrop, 1);
-    layers.setLayer(createWorld, 2);
-    layers.setLayer(cancelButton, 2);
-    layers.setLayer(redButton, 2);
-    layers.setLayer(blueButton, 2);
-    layers.setLayer(greenButton, 2);
-    layers.setLayer(lessRedButton, 2);
-    layers.setLayer(lessBlueButton,2);
-    layers.setLayer(lessGreenButton, 2);
-    layers.setLayer(startButton, 2);
-    layers.setLayer(customizeButton, 2);
-    layers.setLayer(worldSettingsButton, 2);
-    layers.setLayer(gameButton, 2);
-    layers.setLayer(worldTypeButton, 2);
-    layers.setLayer(gameModeButton, 2);
-    layers.setLayer(creativeButton, 2);
-    layers.setLayer(survivalButton, 2);
-    layers.setLayer(adventureButton, 2);
-    layers.setLayer(superflatButton, 2);
-    layers.setLayer(default1, 2);
-    layers.setLayer(amplifiedButton, 2);
+        // Game Setup Layers
+        layers.setLayer(defaultBackdrop, 1);
+        layers.setLayer(worldCreationBackdrop, 1);
+        layers.setLayer(createWorld, 2);
+        layers.setLayer(cancelButton, 2);
+        layers.setLayer(redButton, 2);
+        layers.setLayer(blueButton, 2);
+        layers.setLayer(greenButton, 2);
+        layers.setLayer(lessRedButton, 2);
+        layers.setLayer(lessBlueButton, 2);
+        layers.setLayer(lessGreenButton, 2);
+        layers.setLayer(startButton, 2);
+        layers.setLayer(customizeButton, 2);
+        layers.setLayer(worldSettingsButton, 2);
+        layers.setLayer(gameButton, 2);
+        layers.setLayer(worldTypeButton, 2);
+        layers.setLayer(gameModeButton, 2);
+        layers.setLayer(creativeButton, 2);
+        layers.setLayer(survivalButton, 2);
+        layers.setLayer(adventureButton, 2);
+        layers.setLayer(superflatButton, 2);
+        layers.setLayer(default1, 2);
+        layers.setLayer(amplifiedButton, 2);
 
     // Actual Game Screen Layers
         // Movement Mechanics
