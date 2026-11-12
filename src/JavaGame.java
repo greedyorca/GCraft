@@ -844,87 +844,88 @@ public class JavaGame {
                 inventoryExitButton.addKeyListener(exitGame);
             }
 
-                        // Moving keyListeners
-            KeyListener forwardMover = new  KeyAdapter() {
-                @Override
-                public void keyPressed(KeyEvent e) {
-                   if (e.getKeyCode()==KeyEvent.VK_W) {
-                       // if no block in front
-                       steve.playerYMovement[0]++;
-                       steve.setLocation(
-                               steve.playerXMovement[0],
-                               steve.playerYMovement[0]
-                       );
-                       steve.repaint();
-                   }
+
+        // Moving keyListeners
+        KeyListener forwardMover = new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_W) {
+                    // if no block in front
+                    steve.playerYMovement[0]++;
+                    steve.setLocation(
+                            steve.playerXMovement[0],
+                            steve.playerYMovement[0]
+                    );
+                    steve.repaint();
                 }
-            };
-            if (createWorldPressed[0]) {
-                steve.addKeyListener(forwardMover);
             }
-            KeyListener backwardMover = new  KeyAdapter() {
-                @Override
-                public void keyPressed(KeyEvent e) {
-                    if (e.getKeyCode()==KeyEvent.VK_S) {
-                        // if no block behind
-                        steve.playerYMovement[0]--;
-                        steve.setLocation(
-                                steve.playerXMovement[0],
-                                steve.playerYMovement[0]
-                        );
-                        steve.repaint();
-                    }
+        };
+        if (createWorldPressed[0]) {
+            steve.addKeyListener(forwardMover);
+        }
+        KeyListener backwardMover = new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_S) {
+                    // if no block behind
+                    steve.playerYMovement[0]--;
+                    steve.setLocation(
+                            steve.playerXMovement[0],
+                            steve.playerYMovement[0]
+                    );
+                    steve.repaint();
                 }
-            };
-            if (createWorldPressed[0]) {
-                //steve.addKeyListener(backwardMover);
             }
-            KeyListener leftMover = new  KeyAdapter() {
-                @Override
-                public void keyPressed(KeyEvent e) {
-                    if (e.getKeyCode()==KeyEvent.VK_A) {
-                        // if no block to left
-                        steve.playerXMovement[0]--;
-                        steve.setLocation(
-                                steve.playerXMovement[0],
-                                steve.playerYMovement[0]
-                        );
-                        steve.repaint();
-                    }
+        };
+        if (createWorldPressed[0]) {
+            //steve.addKeyListener(backwardMover);
+        }
+        KeyListener leftMover = new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_A) {
+                    // if no block to left
+                    steve.playerXMovement[0]--;
+                    steve.setLocation(
+                            steve.playerXMovement[0],
+                            steve.playerYMovement[0]
+                    );
+                    steve.repaint();
                 }
-            };
-            if (createWorldPressed[0]) {
-                steve.addKeyListener(leftMover);
             }
-            KeyListener rightMover = new  KeyAdapter() {
-                @Override
-                public void keyPressed(KeyEvent e) {
-                    if (e.getKeyCode()==KeyEvent.VK_D) {
-                        // if no block to right
-                        steve.playerXMovement[0]++;
-                        steve.setLocation(
-                                steve.playerXMovement[0],
-                                steve.playerYMovement[0]
-                        );
-                        steve.repaint();
-                    }
+        };
+        if (createWorldPressed[0]) {
+            steve.addKeyListener(leftMover);
+        }
+        KeyListener rightMover = new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_D) {
+                    // if no block to right
+                    steve.playerXMovement[0]++;
+                    steve.setLocation(
+                            steve.playerXMovement[0],
+                            steve.playerYMovement[0]
+                    );
+                    steve.repaint();
                 }
-            };
-            if (createWorldPressed[0]) {
-                steve.addKeyListener(rightMover);
             }
-            KeyListener upMover = new  KeyAdapter() {
-                @Override
-                public void keyPressed(KeyEvent e){
-                    if (e.getKeyCode()==KeyEvent.VK_UP) {
-                        steve.playerZMovement[0]++;
-                        steve.repaint();
-                    }
+        };
+        if (createWorldPressed[0]) {
+            steve.addKeyListener(rightMover);
+        }
+        KeyListener upMover = new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode() == KeyEvent.VK_UP) {
+                    steve.playerZMovement[0]++;
+                    steve.repaint();
                 }
-            };
-            if (createWorldPressed[0]) {
-                steve.addKeyListener(upMover);
             }
+        };
+        if (createWorldPressed[0]) {
+            steve.addKeyListener(upMover);
+        }
 
 
     customizeButton.addActionListener(click -> {
