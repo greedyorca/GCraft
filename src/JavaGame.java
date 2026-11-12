@@ -10,7 +10,6 @@ import java.awt.desktop.SystemSleepEvent;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.security.Key;
 
 
 public class JavaGame {
