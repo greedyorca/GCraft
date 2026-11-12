@@ -160,11 +160,11 @@ public class JavaGame {
         layers.add(respawnButton, 3);
         layers.add(playerHealthLabel, 3);
         // Item Mechanics
-    layers.add(swordButton);
-    layers.add(axeButton);
-    layers.add(bowButton);
-    layers.add(shovelButton);
-    layers.add(pickaxeButton);
+        layers.add(swordButton);
+        layers.add(axeButton);
+        layers.add(bowButton);
+        layers.add(shovelButton);
+        layers.add(pickaxeButton);
         // Inventory Mechanics
     layers.add(inventoryButton, 3);
     layers.add(offhandButton, 3);
