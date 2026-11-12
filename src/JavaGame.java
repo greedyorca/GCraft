@@ -2,8 +2,6 @@
 // 11/3/26-
 // Create a Basic Minecraft/Java Game
 
-import jdk.jfr.Category;
-
 import javax.swing.*;
 import javax.swing.text.DefaultEditorKit;
 import javax.swing.text.JTextComponent;
@@ -19,6 +17,7 @@ public class JavaGame {
 
 
     public static void main(String[] args) {
+        int me = 12;
         JFrame gameWindow = new JFrame("Java Game");
         gameWindow.setSize(1280, 800);
         JLayeredPane layers = new JLayeredPane();
