@@ -59,12 +59,12 @@ public class JavaGame {
         JButton respawnButton = new JButton("Respawn");
         JButton titleScreenButton = new JButton("Title Screen");
 
-            // Item Mechanics
-            JButton swordButton = new JButton("Sword");
-            JButton axeButton = new JButton("Axe");
-            JButton bowButton = new JButton("Bow");
-            JButton shovelButton = new JButton("Shovel");
-            JButton pickaxeButton = new JButton("Pickaxe");
+        // Item Mechanics
+        JButton swordButton = new JButton("Sword");
+        JButton axeButton = new JButton("Axe");
+        JButton bowButton = new JButton("Bow");
+        JButton shovelButton = new JButton("Shovel");
+        JButton pickaxeButton = new JButton("Pickaxe");
 
             // Inventory Mechanics
             JButton inventoryExitButton = new JButton();
