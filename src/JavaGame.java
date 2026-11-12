@@ -114,8 +114,8 @@ public class JavaGame {
         JButton breakButton = new JButton();
         JButton hotbarButton1 = new JButton();
 
-            // Commands, Chat, and Exit buttons
-            JButton cancelButton = new JButton("Cancel");
+        // Commands, Chat, and Exit buttons
+        JButton cancelButton = new JButton("Cancel");
 
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.setLocationRelativeTo(null);
