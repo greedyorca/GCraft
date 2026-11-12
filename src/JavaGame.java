@@ -5,8 +5,6 @@
 import jdk.jfr.Category;
 
 import javax.swing.*;
-import javax.swing.text.DefaultEditorKit;
-import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.desktop.SystemSleepEvent;
 import java.awt.event.KeyAdapter;
