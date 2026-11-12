@@ -156,9 +156,9 @@ public class JavaGame {
         layers.add(cancelButton, 3);
         layers.add(inventoryExitButton, 2);
         // Health Mechanics
-    layers.add(titleScreenButton, 3);
-    layers.add(respawnButton, 3);
-    layers.add(playerHealthLabel,3);
+        layers.add(titleScreenButton, 3);
+        layers.add(respawnButton, 3);
+        layers.add(playerHealthLabel, 3);
         // Item Mechanics
     layers.add(swordButton);
     layers.add(axeButton);
