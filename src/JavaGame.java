@@ -23,13 +23,13 @@ public class JavaGame {
         WorldCreationBackdrop worldCreationBackdrop = new WorldCreationBackdrop();
         MainGameScreen mainGameScreen = new MainGameScreen();
         JButton customizeButton = new JButton("Skin");          //Customize tab
-            // Change Color Buttons
-            JButton redButton = new JButton("Click to make more red");
-            JButton blueButton = new JButton("Click to make more blue");
-            JButton greenButton = new JButton("Click to make more green");
-            JButton lessRedButton = new JButton("Click to make less red");
-            JButton lessBlueButton = new JButton("Click to make less blue");
-            JButton lessGreenButton = new JButton("Click to make less green");
+        // Change Color Buttons
+        JButton redButton = new JButton("Click to make more red");
+        JButton blueButton = new JButton("Click to make more blue");
+        JButton greenButton = new JButton("Click to make more green");
+        JButton lessRedButton = new JButton("Click to make less red");
+        JButton lessBlueButton = new JButton("Click to make less blue");
+        JButton lessGreenButton = new JButton("Click to make less green");
 
         JButton worldSettingsButton = new JButton("World");     //World tab
             JButton worldTypeButton = new JButton("World Type");
