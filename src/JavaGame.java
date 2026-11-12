@@ -39,11 +39,11 @@ public class JavaGame {
         JButton default1 = new JButton("Default");
 
         JButton gameButton = new JButton("Game");               //Game tab
-            JButton gameModeButton = new JButton("Game Mode");
-                // Game Modes
-                JButton creativeButton = new JButton("Creative");
-                JButton survivalButton = new JButton("Survival");
-                JButton adventureButton = new JButton("Adventure");
+        JButton gameModeButton = new JButton("Game Mode");
+        // Game Modes
+        JButton creativeButton = new JButton("Creative");
+        JButton survivalButton = new JButton("Survival");
+        JButton adventureButton = new JButton("Adventure");
 
         JButton startButton = new JButton("Play");
         JButton createWorld = new JButton("Create New World");
