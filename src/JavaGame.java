@@ -149,7 +149,7 @@ public class JavaGame {
 
     // Actual Game Screen Adders
         // Movement
-    layers.add(steve,3);
+        layers.add(steve, 3);
         // Creation/Destruction/Attacks Mechanics
     layers.add(breakButton, 2);
         // Commands, Chat, and Exit Mechanics
