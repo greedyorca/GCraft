@@ -53,11 +53,11 @@ public class JavaGame {
         // Movement Mechanics
         PlayerCreator steve = new PlayerCreator();
 
-            // Health Mechanics
-            mainGameScreen.playerHealth= 20;
-            JLabel playerHealthLabel = new JLabel("()()()()()()()()()()");
-            JButton respawnButton = new JButton("Respawn");
-            JButton titleScreenButton = new JButton("Title Screen");
+        // Health Mechanics
+        mainGameScreen.playerHealth = 20;
+        JLabel playerHealthLabel = new JLabel("()()()()()()()()()()");
+        JButton respawnButton = new JButton("Respawn");
+        JButton titleScreenButton = new JButton("Title Screen");
 
             // Item Mechanics
             JButton swordButton = new JButton("Sword");
