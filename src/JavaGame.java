@@ -47,8 +47,8 @@ public class JavaGame {
 
         JButton startButton = new JButton("Play");
         JButton createWorld = new JButton("Create New World");
-                    // In Game Creations
-            final boolean[] createWorldPressed = {false};
+        // In Game Creations
+        final boolean[] createWorldPressed = {false};
 
             // Movement Mechanics
             PlayerCreator steve = new PlayerCreator();
