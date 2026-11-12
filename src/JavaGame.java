@@ -153,8 +153,8 @@ public class JavaGame {
         // Creation/Destruction/Attacks Mechanics
         layers.add(breakButton, 2);
         // Commands, Chat, and Exit Mechanics
-    layers.add(cancelButton, 3);
-    layers.add(inventoryExitButton, 2);
+        layers.add(cancelButton, 3);
+        layers.add(inventoryExitButton, 2);
         // Health Mechanics
     layers.add(titleScreenButton, 3);
     layers.add(respawnButton, 3);
