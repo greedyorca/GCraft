@@ -123,29 +123,29 @@ public class JavaGame {
         gameWindow.add(layers);
 
 
-    // Game Setup Adders
-    layers.add(defaultBackdrop, 1);
-    layers.add(worldCreationBackdrop, 1);
-    layers.add(createWorld, 2);
-    layers.add(cancelButton, 2);
-    layers.add(redButton, 2);
-    layers.add(blueButton, 2);
-    layers.add(greenButton, 2);
-    layers.add(lessRedButton, 2);
-    layers.add(lessBlueButton, 2);
-    layers.add(lessGreenButton, 2);
-    layers.add(startButton, 2);
-    layers.add(customizeButton, 2);
-    layers.add(gameButton, 2);
-    layers.add(worldSettingsButton, 2);
-    layers.add(worldTypeButton, 2);
-    layers.add(gameModeButton, 2);
-    layers.add(creativeButton, 2);
-    layers.add(survivalButton, 2);
-    layers.add(adventureButton, 2);
-    layers.add(superflatButton, 2);
-    layers.add(default1, 2);
-    layers.add(amplifiedButton, 2);
+        // Game Setup Adders
+        layers.add(defaultBackdrop, 1);
+        layers.add(worldCreationBackdrop, 1);
+        layers.add(createWorld, 2);
+        layers.add(cancelButton, 2);
+        layers.add(redButton, 2);
+        layers.add(blueButton, 2);
+        layers.add(greenButton, 2);
+        layers.add(lessRedButton, 2);
+        layers.add(lessBlueButton, 2);
+        layers.add(lessGreenButton, 2);
+        layers.add(startButton, 2);
+        layers.add(customizeButton, 2);
+        layers.add(gameButton, 2);
+        layers.add(worldSettingsButton, 2);
+        layers.add(worldTypeButton, 2);
+        layers.add(gameModeButton, 2);
+        layers.add(creativeButton, 2);
+        layers.add(survivalButton, 2);
+        layers.add(adventureButton, 2);
+        layers.add(superflatButton, 2);
+        layers.add(default1, 2);
+        layers.add(amplifiedButton, 2);
 
     // Actual Game Screen Adders
         // Movement
