@@ -110,8 +110,9 @@ public class JavaGame {
         JButton leggingsButton = new JButton();
         JButton bootsButton = new JButton();
 
-            // Creation/Destruction/Attacks Mechanics
-            JButton breakButton = new JButton();JButton hotbarButton1 = new JButton();
+        // Creation/Destruction/Attacks Mechanics
+        JButton breakButton = new JButton();
+        JButton hotbarButton1 = new JButton();
 
             // Commands, Chat, and Exit buttons
             JButton cancelButton = new JButton("Cancel");
