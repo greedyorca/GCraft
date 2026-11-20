@@ -304,11 +304,11 @@ public class JavaGame {
         layers.setLayer(inventoryButton27, 3);
 
 
-    defaultBackdrop.setSize(gameWindow.getWidth(), gameWindow.getHeight());
-    defaultBackdrop.setLocation(0, 0);
-    defaultBackdrop.setBounds(0, 0, gameWindow.getWidth(), gameWindow.getHeight());
-    defaultBackdrop.setVisible(true);
-    defaultBackdrop.setOpaque(false);
+        defaultBackdrop.setSize(gameWindow.getWidth(), gameWindow.getHeight());
+        defaultBackdrop.setLocation(0, 0);
+        defaultBackdrop.setBounds(0, 0, gameWindow.getWidth(), gameWindow.getHeight());
+        defaultBackdrop.setVisible(true);
+        defaultBackdrop.setOpaque(false);
 
     worldCreationBackdrop.setSize(gameWindow.getWidth(), gameWindow.getHeight());
     worldCreationBackdrop.setLocation(0, 0);
