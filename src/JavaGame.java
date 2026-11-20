@@ -322,10 +322,10 @@ public class JavaGame {
         mainGameScreen.setVisible(false);
         mainGameScreen.setOpaque(false);
 
-    setButtonCenter(createWorld, 530, 700, 220, 40);
-    createWorld.setSize(220, 40);
-    createWorld.setVisible(false);
-    createWorld.setOpaque(false);
+        setButtonCenter(createWorld, 530, 700, 220, 40);
+        createWorld.setSize(220, 40);
+        createWorld.setVisible(false);
+        createWorld.setOpaque(false);
 
         steve.setBounds(steve.playerXMovement[0], steve.playerYMovement[0], 80, 80);
         steve.setVisible(false);
