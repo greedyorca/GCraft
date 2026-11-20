@@ -316,11 +316,11 @@ public class JavaGame {
         worldCreationBackdrop.setVisible(false);
         worldCreationBackdrop.setOpaque(false);
 
-    mainGameScreen.setSize(gameWindow.getWidth(), gameWindow.getHeight());
-    mainGameScreen.setLocation(0, 0);
-    mainGameScreen.setBounds(0,0,gameWindow.getWidth(),gameWindow.getHeight());
-    mainGameScreen.setVisible(false);
-    mainGameScreen.setOpaque(false);
+        mainGameScreen.setSize(gameWindow.getWidth(), gameWindow.getHeight());
+        mainGameScreen.setLocation(0, 0);
+        mainGameScreen.setBounds(0, 0, gameWindow.getWidth(), gameWindow.getHeight());
+        mainGameScreen.setVisible(false);
+        mainGameScreen.setOpaque(false);
 
     setButtonCenter(createWorld, 530, 700, 220, 40);
     createWorld.setSize(220, 40);
