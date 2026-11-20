@@ -310,11 +310,11 @@ public class JavaGame {
         defaultBackdrop.setVisible(true);
         defaultBackdrop.setOpaque(false);
 
-    worldCreationBackdrop.setSize(gameWindow.getWidth(), gameWindow.getHeight());
-    worldCreationBackdrop.setLocation(0, 0);
-    worldCreationBackdrop.setBounds(0, 0, gameWindow.getWidth(), gameWindow.getHeight());
-    worldCreationBackdrop.setVisible(false);
-    worldCreationBackdrop.setOpaque(false);
+        worldCreationBackdrop.setSize(gameWindow.getWidth(), gameWindow.getHeight());
+        worldCreationBackdrop.setLocation(0, 0);
+        worldCreationBackdrop.setBounds(0, 0, gameWindow.getWidth(), gameWindow.getHeight());
+        worldCreationBackdrop.setVisible(false);
+        worldCreationBackdrop.setOpaque(false);
 
     mainGameScreen.setSize(gameWindow.getWidth(), gameWindow.getHeight());
     mainGameScreen.setLocation(0, 0);
