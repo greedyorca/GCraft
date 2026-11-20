@@ -153,7 +153,7 @@ public class JavaGame {
         layers.add(fpsButton,2);
         layers.add(fpsSlider,2);
 
-    // Actual Game Screen Adders
+        // Actual Game Screen Adders
         // Movement
         layers.add(steve, 3);
         // Creation/Destruction/Attacks Mechanics
