@@ -38,6 +38,12 @@ public class JavaGame {
 
         JButton gameButton = new JButton("Game");               //Game tab
         JButton gameModeButton = new JButton("Game Mode");
+        JButton fpsButton = new JButton("FPS");
+        // fps Mechanics
+        int fps = 0;
+        JSlider fpsSlider = new JSlider(JSlider.HORIZONTAL,0,180,0);
+        fpsSlider.setMajorTickSpacing(10);
+        fpsSlider.setMinorTickSpacing(1);
         // Game Modes
         JButton creativeButton = new JButton("Creative");
         JButton survivalButton = new JButton("Survival");
