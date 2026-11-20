@@ -238,6 +238,8 @@ public class JavaGame {
         layers.setLayer(superflatButton, 2);
         layers.setLayer(default1, 2);
         layers.setLayer(amplifiedButton, 2);
+        layers.setLayer(fpsButton,2);
+        layers.setLayer(fpsSlider,2);
 
     // Actual Game Screen Layers
         // Movement Mechanics
