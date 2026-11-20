@@ -6,7 +6,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 
 public class JavaGame {
@@ -241,24 +240,24 @@ public class JavaGame {
         layers.setLayer(fpsButton,2);
         layers.setLayer(fpsSlider,2);
 
-    // Actual Game Screen Layers
+        // Actual Game Screen Layers
         // Movement Mechanics
-    layers.setLayer(steve, 3);
+        layers.setLayer(steve, 3);
         // Health Mechanics
-    layers.setLayer(playerHealthLabel,3);
-    layers.setLayer(titleScreenButton, 3);
-    layers.setLayer(respawnButton, 3);
+        layers.setLayer(playerHealthLabel, 3);
+        layers.setLayer(titleScreenButton, 3);
+        layers.setLayer(respawnButton, 3);
         // Creation/Destruction/Attacks Mechanics
-    layers.setLayer(breakButton, 2);
+        layers.setLayer(breakButton, 2);
         // Commands/Chat/Exit Mechanics
-    layers.setLayer(cancelButton, 3);
-    layers.setLayer(inventoryExitButton, 2);
+        layers.setLayer(cancelButton, 3);
+        layers.setLayer(inventoryExitButton, 2);
         // Item Mechanics
-    layers.setLayer(swordButton,3);
-    layers.setLayer(axeButton,3);
-    layers.setLayer(bowButton,3);
-    layers.setLayer(shovelButton,3);
-    layers.setLayer(pickaxeButton,3);
+        layers.setLayer(swordButton, 3);
+        layers.setLayer(axeButton, 3);
+        layers.setLayer(bowButton, 3);
+        layers.setLayer(shovelButton, 3);
+        layers.setLayer(pickaxeButton, 3);
         // Inventory Mechanics
         layers.setLayer(inventoryButton, 3);
         layers.setLayer(offhandButton, 3);
@@ -350,7 +349,7 @@ public class JavaGame {
         inventoryExitButton.setContentAreaFilled(false);
         inventoryExitButton.setBorderPainted(false);
 
-        playerHealthLabel.setLocation(340,765);
+        playerHealthLabel.setLocation(340, 765);
         playerHealthLabel.setBounds(340, 740, 250, 40);
         playerHealthLabel.setFont(new Font("Arial", Font.BOLD, 25));
         playerHealthLabel.setForeground(Color.RED);
@@ -413,175 +412,175 @@ public class JavaGame {
         inventoryButton.setOpaque(false);
         inventoryButton.setFocusable(true);
 
-            setButtonCenter(helmetButton, 100, 700, 80, 80);
-            helmetButton.setSize(80, 80);
-            helmetButton.setVisible(false);
-            helmetButton.setOpaque(false);
+        setButtonCenter(helmetButton, 100, 700, 80, 80);
+        helmetButton.setSize(80, 80);
+        helmetButton.setVisible(false);
+        helmetButton.setOpaque(false);
 
-            setButtonCenter(chestplateButton, 100, 700, 80, 80);
-            chestplateButton.setSize(80, 80);
-            chestplateButton.setVisible(false);
-            chestplateButton.setOpaque(false);
+        setButtonCenter(chestplateButton, 100, 700, 80, 80);
+        chestplateButton.setSize(80, 80);
+        chestplateButton.setVisible(false);
+        chestplateButton.setOpaque(false);
 
-            setButtonCenter(leggingsButton, 100, 700, 80, 80);
-            leggingsButton.setSize(80, 80);
-            leggingsButton.setVisible(false);
-            leggingsButton.setOpaque(false);
+        setButtonCenter(leggingsButton, 100, 700, 80, 80);
+        leggingsButton.setSize(80, 80);
+        leggingsButton.setVisible(false);
+        leggingsButton.setOpaque(false);
 
-            setButtonCenter(bootsButton, 100, 700, 80, 80);
-            bootsButton.setSize(80, 80);
-            bootsButton.setVisible(false);
-            bootsButton.setOpaque(false);
+        setButtonCenter(bootsButton, 100, 700, 80, 80);
+        bootsButton.setSize(80, 80);
+        bootsButton.setVisible(false);
+        bootsButton.setOpaque(false);
 
-            setButtonCenter(inventoryButton1, 420, 360, 60, 60);
-            inventoryButton1.setSize(60, 60);
-            inventoryButton1.setVisible(false);
-            inventoryButton1.setOpaque(false);
+        setButtonCenter(inventoryButton1, 420, 360, 60, 60);
+        inventoryButton1.setSize(60, 60);
+        inventoryButton1.setVisible(false);
+        inventoryButton1.setOpaque(false);
 
-            setButtonCenter(inventoryButton2, 480, 360, 60, 60);
-            inventoryButton2.setSize(60, 60);
-            inventoryButton2.setVisible(false);
-            inventoryButton2.setOpaque(false);
+        setButtonCenter(inventoryButton2, 480, 360, 60, 60);
+        inventoryButton2.setSize(60, 60);
+        inventoryButton2.setVisible(false);
+        inventoryButton2.setOpaque(false);
 
-            setButtonCenter(inventoryButton3, 540, 360, 80, 80);
-            inventoryButton3.setSize(80, 80);
-            inventoryButton3.setVisible(false);
-            inventoryButton3.setOpaque(false);
+        setButtonCenter(inventoryButton3, 540, 360, 80, 80);
+        inventoryButton3.setSize(80, 80);
+        inventoryButton3.setVisible(false);
+        inventoryButton3.setOpaque(false);
 
-            setButtonCenter(inventoryButton4, 600, 360, 80, 80);
-            inventoryButton4.setSize(80, 80);
-            inventoryButton4.setVisible(false);
-            inventoryButton4.setOpaque(false);
+        setButtonCenter(inventoryButton4, 600, 360, 80, 80);
+        inventoryButton4.setSize(80, 80);
+        inventoryButton4.setVisible(false);
+        inventoryButton4.setOpaque(false);
 
-            setButtonCenter(inventoryButton5, 660, 360, 80, 80);
-            inventoryButton5.setSize(80, 80);
-            inventoryButton5.setVisible(false);
-            inventoryButton5.setOpaque(false);
+        setButtonCenter(inventoryButton5, 660, 360, 80, 80);
+        inventoryButton5.setSize(80, 80);
+        inventoryButton5.setVisible(false);
+        inventoryButton5.setOpaque(false);
 
-            setButtonCenter(inventoryButton6, 720, 360, 80, 80);
-            inventoryButton6.setSize(80, 80);
-            inventoryButton6.setVisible(false);
-            inventoryButton6.setOpaque(false);
+        setButtonCenter(inventoryButton6, 720, 360, 80, 80);
+        inventoryButton6.setSize(80, 80);
+        inventoryButton6.setVisible(false);
+        inventoryButton6.setOpaque(false);
 
-            setButtonCenter(inventoryButton7, 780, 360, 80, 80);
-            inventoryButton7.setSize(80, 80);
-            inventoryButton7.setVisible(false);
-            inventoryButton7.setOpaque(false);
+        setButtonCenter(inventoryButton7, 780, 360, 80, 80);
+        inventoryButton7.setSize(80, 80);
+        inventoryButton7.setVisible(false);
+        inventoryButton7.setOpaque(false);
 
-            setButtonCenter(inventoryButton8, 640, 360, 80, 80);
-            inventoryButton8.setSize(80, 80);
-            inventoryButton8.setVisible(false);
-            inventoryButton8.setOpaque(false);
+        setButtonCenter(inventoryButton8, 640, 360, 80, 80);
+        inventoryButton8.setSize(80, 80);
+        inventoryButton8.setVisible(false);
+        inventoryButton8.setOpaque(false);
 
-            setButtonCenter(inventoryButton9, 100, 420, 80, 80);
-            inventoryButton9.setSize(80, 80);
-            inventoryButton9.setVisible(false);
-            inventoryButton9.setOpaque(false);
+        setButtonCenter(inventoryButton9, 100, 420, 80, 80);
+        inventoryButton9.setSize(80, 80);
+        inventoryButton9.setVisible(false);
+        inventoryButton9.setOpaque(false);
 
-            setButtonCenter(inventoryButton10, 160, 420, 80, 80);
-            inventoryButton10.setSize(80, 80);
-            inventoryButton10.setVisible(false);
-            inventoryButton10.setOpaque(false);
+        setButtonCenter(inventoryButton10, 160, 420, 80, 80);
+        inventoryButton10.setSize(80, 80);
+        inventoryButton10.setVisible(false);
+        inventoryButton10.setOpaque(false);
 
-            setButtonCenter(inventoryButton11, 220, 420, 80, 80);
-            inventoryButton11.setSize(80, 80);
-            inventoryButton11.setVisible(false);
-            inventoryButton11.setOpaque(false);
+        setButtonCenter(inventoryButton11, 220, 420, 80, 80);
+        inventoryButton11.setSize(80, 80);
+        inventoryButton11.setVisible(false);
+        inventoryButton11.setOpaque(false);
 
-            setButtonCenter(inventoryButton12, 280, 420, 80, 80);
-            inventoryButton12.setSize(80, 80);
-            inventoryButton12.setVisible(false);
-            inventoryButton12.setOpaque(false);
+        setButtonCenter(inventoryButton12, 280, 420, 80, 80);
+        inventoryButton12.setSize(80, 80);
+        inventoryButton12.setVisible(false);
+        inventoryButton12.setOpaque(false);
 
-            setButtonCenter(inventoryButton13, 340, 420, 80, 80);
-            inventoryButton13.setSize(80, 80);
-            inventoryButton13.setVisible(false);
-            inventoryButton13.setOpaque(false);
+        setButtonCenter(inventoryButton13, 340, 420, 80, 80);
+        inventoryButton13.setSize(80, 80);
+        inventoryButton13.setVisible(false);
+        inventoryButton13.setOpaque(false);
 
-            setButtonCenter(inventoryButton14, 400, 420, 80, 80);
-            inventoryButton14.setSize(80, 80);
-            inventoryButton14.setVisible(false);
-            inventoryButton14.setOpaque(false);
+        setButtonCenter(inventoryButton14, 400, 420, 80, 80);
+        inventoryButton14.setSize(80, 80);
+        inventoryButton14.setVisible(false);
+        inventoryButton14.setOpaque(false);
 
-            setButtonCenter(inventoryButton15, 460, 420, 80, 80);
-            inventoryButton15.setSize(80, 80);
-            inventoryButton15.setVisible(false);
-            inventoryButton15.setOpaque(false);
+        setButtonCenter(inventoryButton15, 460, 420, 80, 80);
+        inventoryButton15.setSize(80, 80);
+        inventoryButton15.setVisible(false);
+        inventoryButton15.setOpaque(false);
 
-            setButtonCenter(inventoryButton16, 520, 420, 80, 80);
-            inventoryButton16.setSize(80, 80);
-            inventoryButton16.setVisible(false);
-            inventoryButton16.setOpaque(false);
+        setButtonCenter(inventoryButton16, 520, 420, 80, 80);
+        inventoryButton16.setSize(80, 80);
+        inventoryButton16.setVisible(false);
+        inventoryButton16.setOpaque(false);
 
-            setButtonCenter(inventoryButton17, 580, 420, 80, 80);
-            inventoryButton17.setSize(80, 80);
-            inventoryButton17.setVisible(false);
-            inventoryButton17.setOpaque(false);
+        setButtonCenter(inventoryButton17, 580, 420, 80, 80);
+        inventoryButton17.setSize(80, 80);
+        inventoryButton17.setVisible(false);
+        inventoryButton17.setOpaque(false);
 
-            setButtonCenter(inventoryButton18, 640, 420, 60, 60);
-            inventoryButton18.setSize(80, 80);
-            inventoryButton18.setVisible(false);
-            inventoryButton18.setOpaque(false);
+        setButtonCenter(inventoryButton18, 640, 420, 60, 60);
+        inventoryButton18.setSize(80, 80);
+        inventoryButton18.setVisible(false);
+        inventoryButton18.setOpaque(false);
 
-            setButtonCenter(inventoryButton19, 160, 480, 60, 60);
-            inventoryButton19.setSize(60, 60);
-            inventoryButton19.setVisible(false);
-            inventoryButton19.setOpaque(false);
+        setButtonCenter(inventoryButton19, 160, 480, 60, 60);
+        inventoryButton19.setSize(60, 60);
+        inventoryButton19.setVisible(false);
+        inventoryButton19.setOpaque(false);
 
-            setButtonCenter(inventoryButton20, 220, 480, 60, 60);
-            inventoryButton20.setSize(60, 60);
-            inventoryButton20.setVisible(false);
-            inventoryButton20.setOpaque(false);
+        setButtonCenter(inventoryButton20, 220, 480, 60, 60);
+        inventoryButton20.setSize(60, 60);
+        inventoryButton20.setVisible(false);
+        inventoryButton20.setOpaque(false);
 
-            setButtonCenter(inventoryButton21, 280, 480, 60, 60);
-            inventoryButton21.setSize(60, 60);
-            inventoryButton21.setVisible(false);
-            inventoryButton21.setOpaque(false);
+        setButtonCenter(inventoryButton21, 280, 480, 60, 60);
+        inventoryButton21.setSize(60, 60);
+        inventoryButton21.setVisible(false);
+        inventoryButton21.setOpaque(false);
 
-            setButtonCenter(inventoryButton22, 340, 480, 60, 60);
-            inventoryButton22.setSize(60, 60);
-            inventoryButton22.setVisible(false);
-            inventoryButton22.setOpaque(false);
+        setButtonCenter(inventoryButton22, 340, 480, 60, 60);
+        inventoryButton22.setSize(60, 60);
+        inventoryButton22.setVisible(false);
+        inventoryButton22.setOpaque(false);
 
-            setButtonCenter(inventoryButton23, 400, 480, 60, 60);
-            inventoryButton23.setSize(60, 60);
-            inventoryButton23.setVisible(false);
-            inventoryButton23.setOpaque(false);
+        setButtonCenter(inventoryButton23, 400, 480, 60, 60);
+        inventoryButton23.setSize(60, 60);
+        inventoryButton23.setVisible(false);
+        inventoryButton23.setOpaque(false);
 
-            setButtonCenter(inventoryButton24, 460, 480, 60, 60);
-            inventoryButton24.setSize(60, 80);
-            inventoryButton24.setVisible(false);
-            inventoryButton24.setOpaque(false);
+        setButtonCenter(inventoryButton24, 460, 480, 60, 60);
+        inventoryButton24.setSize(60, 80);
+        inventoryButton24.setVisible(false);
+        inventoryButton24.setOpaque(false);
 
-            setButtonCenter(inventoryButton25, 520, 480, 60, 60);
-            inventoryButton25.setSize(60, 60);
-            inventoryButton25.setVisible(false);
-            inventoryButton25.setOpaque(false);
+        setButtonCenter(inventoryButton25, 520, 480, 60, 60);
+        inventoryButton25.setSize(60, 60);
+        inventoryButton25.setVisible(false);
+        inventoryButton25.setOpaque(false);
 
-            setButtonCenter(inventoryButton26, 580, 480, 60, 60);
-            inventoryButton26.setSize(60, 60);
-            inventoryButton26.setVisible(false);
-            inventoryButton26.setOpaque(false);
+        setButtonCenter(inventoryButton26, 580, 480, 60, 60);
+        inventoryButton26.setSize(60, 60);
+        inventoryButton26.setVisible(false);
+        inventoryButton26.setOpaque(false);
 
-            setButtonCenter(inventoryButton27, 640, 480, 60, 60);
-            inventoryButton27.setSize(60, 60);
-            inventoryButton27.setVisible(false);
-            inventoryButton27.setOpaque(false);
+        setButtonCenter(inventoryButton27, 640, 480, 60, 60);
+        inventoryButton27.setSize(60, 60);
+        inventoryButton27.setVisible(false);
+        inventoryButton27.setOpaque(false);
 
-    setButtonCenter(startButton, 640, 490, 180, 40);
-    startButton.setSize(180, 40);
-    startButton.setVisible(true);
-    startButton.setOpaque(false);
+        setButtonCenter(startButton, 640, 490, 180, 40);
+        startButton.setSize(180, 40);
+        startButton.setVisible(true);
+        startButton.setOpaque(false);
 
-    setButtonCenter(cancelButton, 750, 700, 180, 40);
-    cancelButton.setSize(180, 40);
-    cancelButton.setVisible(false);
-    cancelButton.setOpaque(false);
+        setButtonCenter(cancelButton, 750, 700, 180, 40);
+        cancelButton.setSize(180, 40);
+        cancelButton.setVisible(false);
+        cancelButton.setOpaque(false);
 
-    customizeButton.setLocation(310, 100);
-    customizeButton.setSize(220, 40);
-    customizeButton.setVisible(false);
-    customizeButton.setOpaque(false);
+        customizeButton.setLocation(310, 100);
+        customizeButton.setSize(220, 40);
+        customizeButton.setVisible(false);
+        customizeButton.setOpaque(false);
 
         setButtonCenter(lessRedButton, 440, 360, 180, 40);
         lessRedButton.setSize(180, 40);
@@ -613,372 +612,309 @@ public class JavaGame {
         greenButton.setVisible(false);
         greenButton.setOpaque(false);
 
-    gameButton.setLocation(530, 100);
-    gameButton.setSize(220, 40);
-    gameButton.setVisible(false);
-    gameButton.setOpaque(false);
+        gameButton.setLocation(530, 100);
+        gameButton.setSize(220, 40);
+        gameButton.setVisible(false);
+        gameButton.setOpaque(false);
 
         gameModeButton.setLocation(530, 150);
         gameModeButton.setSize(220, 40);
         gameModeButton.setVisible(false);
         gameModeButton.setOpaque(false);
 
-            survivalButton.setLocation(530, 150);
-            survivalButton.setSize(220, 40);
-            survivalButton.setVisible(false);
-            survivalButton.setOpaque(false);
+        survivalButton.setLocation(530, 150);
+        survivalButton.setSize(220, 40);
+        survivalButton.setVisible(false);
 
-            creativeButton.setLocation(530, 190);
-            creativeButton.setSize(220, 40);
-            creativeButton.setVisible(false);
-            creativeButton.setOpaque(false);
 
-            adventureButton.setLocation(530, 230);
-            adventureButton.setSize(220, 40);
-            adventureButton.setVisible(false);
-            adventureButton.setOpaque(false);
+        creativeButton.setLocation(530, 190);
+        creativeButton.setSize(220, 40);
+        creativeButton.setVisible(false);
 
-    worldSettingsButton.setLocation(750, 100);
-    worldSettingsButton.setSize(180, 40);
-    worldSettingsButton.setVisible(false);
-    worldSettingsButton.setOpaque(false);
+
+        adventureButton.setLocation(530, 230);
+        adventureButton.setSize(220, 40);
+        adventureButton.setVisible(false);
+
+
+        fpsButton.setLocation(530,210);
+        fpsButton.setVisible(false);
+        fpsButton.setSize(180,40);
+
+        fpsSlider.setVisible(false);
+        fpsSlider.setLocation(530,270);
+        fpsSlider.setSize(180,40);
+
+        worldSettingsButton.setLocation(750, 100);
+        worldSettingsButton.setSize(180, 40);
+        worldSettingsButton.setVisible(false);
+
 
         worldTypeButton.setLocation(750, 150);
         worldTypeButton.setSize(180, 40);
         worldTypeButton.setVisible(false);
         worldTypeButton.setOpaque(false);
 
-            amplifiedButton.setLocation(750, 150);
-            amplifiedButton.setSize(180, 40);
-            amplifiedButton.setVisible(false);
-            amplifiedButton.setOpaque(false);
+        amplifiedButton.setLocation(750, 150);
+        amplifiedButton.setSize(180, 40);
+        amplifiedButton.setVisible(false);
+        amplifiedButton.setOpaque(false);
 
-            superflatButton.setLocation(750, 190);
-            superflatButton.setSize(180, 40);
-            superflatButton.setVisible(false);
-            superflatButton.setOpaque(false);
+        superflatButton.setLocation(750, 190);
+        superflatButton.setSize(180, 40);
+        superflatButton.setVisible(false);
+        superflatButton.setOpaque(false);
 
-            default1.setLocation(750, 230);
-            default1.setSize(180, 40);
-            default1.setVisible(false);
-            default1.setOpaque(false);
+        default1.setLocation(750, 230);
+        default1.setSize(180, 40);
+        default1.setVisible(false);
+        default1.setOpaque(false);
 
 
-    gameWindow.setVisible(true);
-    layers.setVisible(true);
+        gameWindow.setVisible(true);
+        layers.setVisible(true);
 
-    startButton.addActionListener(_ -> {
-        startButton.setVisible(false);
-        defaultBackdrop.setVisible(false);
-        worldCreationBackdrop.setVisible(true);
-        createWorld.setVisible(true);
-        cancelButton.setVisible(true);
-        showButtons(customizeButton, worldSettingsButton, gameButton);
-    });
-    cancelButton.addActionListener(click -> {
-        cancelButton.setVisible(false);
-        createWorld.setVisible(false);
-        worldCreationBackdrop.setVisible(false);
-        worldCreationBackdrop.isCustom = false;
-        worldTypeButton.repaint();
-        hideButtons(redButton, blueButton, greenButton);
-        hideButtons(lessRedButton, lessBlueButton, lessGreenButton);
-        hideButtons(adventureButton, creativeButton, survivalButton);
-        hideButtons(amplifiedButton, superflatButton, default1);
-        hideButtons(worldSettingsButton, customizeButton, gameButton);
-        gameModeButton.setVisible(false);
-        worldTypeButton.setVisible(false);
-        defaultBackdrop.setVisible(true);
-        startButton.setVisible(true);
-    });
-    createWorld.addActionListener(click -> {
-        createWorld.setVisible(false);
-        cancelButton.setVisible(false);
-        worldCreationBackdrop.setVisible(false);
-        worldCreationBackdrop.isCustom = false;
-        worldTypeButton.repaint();
-        hideButtons(redButton, blueButton, greenButton);
-        hideButtons(lessRedButton, lessBlueButton, lessGreenButton);
-        hideButtons(survivalButton, creativeButton, adventureButton);
-        hideButtons(gameButton, worldSettingsButton, customizeButton);
-        gameModeButton.setVisible(false);
-        worldTypeButton.setVisible(false);
-        //mainGameScreen.setVisible(true);
-        //mainGameScreen.repaint();
-        playerHealthLabel.setVisible(true);
-        steve.setVisible(true);
-        steve.repaint();
-        showHotbarButtons(hotbarButton1, hotbarButton2, hotbarButton3, hotbarButton4, hotbarButton5, hotbarButton6, hotbarButton7, hotbarButton8, hotbarButton9);
-        offhandButton.setVisible(true);
-        breakButton.setVisible(true);
-        createWorldPressed[0] = true;
-    });
+        startButton.addActionListener(_ -> {
+            startButton.setVisible(false);
+            defaultBackdrop.setVisible(false);
+            worldCreationBackdrop.setVisible(true);
+            createWorld.setVisible(true);
+            cancelButton.setVisible(true);
+            showButtons(customizeButton, worldSettingsButton, gameButton);
+        });
+        cancelButton.addActionListener(click -> {
+            cancelButton.setVisible(false);
+            createWorld.setVisible(false);
+            worldCreationBackdrop.setVisible(false);
+            worldCreationBackdrop.isCustom = false;
+            worldTypeButton.repaint();
+            hideButtons(redButton, blueButton, greenButton);
+            hideButtons(lessRedButton, lessBlueButton, lessGreenButton);
+            hideButtons(adventureButton, creativeButton, survivalButton);
+            hideButtons(amplifiedButton, superflatButton, default1);
+            hideButtons(worldSettingsButton, customizeButton, gameButton);
+            gameModeButton.setVisible(false);
+            worldTypeButton.setVisible(false);
+            defaultBackdrop.setVisible(true);
+            startButton.setVisible(true);
+        });
+        createWorld.addActionListener(click -> {
+            createWorld.setVisible(false);
+            cancelButton.setVisible(false);
+            worldCreationBackdrop.setVisible(false);
+            worldCreationBackdrop.isCustom = false;
+            worldTypeButton.repaint();
+            hideButtons(redButton, blueButton, greenButton);
+            hideButtons(lessRedButton, lessBlueButton, lessGreenButton);
+            hideButtons(survivalButton, creativeButton, adventureButton);
+            hideButtons(gameButton, worldSettingsButton, customizeButton);
+            gameModeButton.setVisible(false);
+            worldTypeButton.setVisible(false);
+            mainGameScreen.setVisible(true);
+            mainGameScreen.repaint();
+            playerHealthLabel.setVisible(true);
+            steve.setVisible(true);
+            steve.repaint();
+            showHotbarButtons(hotbarButton1, hotbarButton2, hotbarButton3, hotbarButton4, hotbarButton5, hotbarButton6, hotbarButton7, hotbarButton8, hotbarButton9);
+            offhandButton.setVisible(true);
+            breakButton.setVisible(true);
+            createWorldPressed[0] = true;
+        });
 
-            // the Actual code for the Game
+        // the Actual code for the Game
 
+        Timer gamePlaying = new Timer(fps, _ -> {
             if (mainGameScreen.playerHealth == 20) {
-            playerHealthLabel.setText("()()()()()()()()()()");
+                playerHealthLabel.setText("()()()()()()()()()()");
             }
             if (mainGameScreen.playerHealth == 19) {
-            playerHealthLabel.setText("()()()()()()()()()(");
+                playerHealthLabel.setText("()()()()()()()()()(");
             }
             if (mainGameScreen.playerHealth == 18) {
-            playerHealthLabel.setText("()()()()()()()()()");
+                playerHealthLabel.setText("()()()()()()()()()");
             }
             if (mainGameScreen.playerHealth == 17) {
-            playerHealthLabel.setText("()()()()()()()()(");
+                playerHealthLabel.setText("()()()()()()()()(");
             }
             if (mainGameScreen.playerHealth == 16) {
-            playerHealthLabel.setText("()()()()()()()()");
+                playerHealthLabel.setText("()()()()()()()()");
             }
             if (mainGameScreen.playerHealth == 15) {
-            playerHealthLabel.setText("()()()()()()()(");
+                playerHealthLabel.setText("()()()()()()()(");
             }
             if (mainGameScreen.playerHealth == 14) {
-            playerHealthLabel.setText("()()()()()()()");
+                playerHealthLabel.setText("()()()()()()()");
             }
             if (mainGameScreen.playerHealth == 13) {
-            playerHealthLabel.setText("()()()()()()(");
+                playerHealthLabel.setText("()()()()()()(");
             }
             if (mainGameScreen.playerHealth == 12) {
-            playerHealthLabel.setText("()()()()()()");
+                playerHealthLabel.setText("()()()()()()");
             }
             if (mainGameScreen.playerHealth == 11) {
-            playerHealthLabel.setText("()()()()()(");
+                playerHealthLabel.setText("()()()()()(");
             }
             if (mainGameScreen.playerHealth == 10) {
-            playerHealthLabel.setText("()()()()()");
+                playerHealthLabel.setText("()()()()()");
             }
             if (mainGameScreen.playerHealth == 9) {
-            playerHealthLabel.setText("()()()()(");
+                playerHealthLabel.setText("()()()()(");
             }
             if (mainGameScreen.playerHealth == 8) {
-            playerHealthLabel.setText("()()()()");
+                playerHealthLabel.setText("()()()()");
             }
             if (mainGameScreen.playerHealth == 7) {
-            playerHealthLabel.setText("()()()(");
+                playerHealthLabel.setText("()()()(");
             }
             if (mainGameScreen.playerHealth == 6) {
-            playerHealthLabel.setText("()()()");
+                playerHealthLabel.setText("()()()");
             }
             if (mainGameScreen.playerHealth == 5) {
-            playerHealthLabel.setText("()()(");
+                playerHealthLabel.setText("()()(");
             }
             if (mainGameScreen.playerHealth == 4) {
-            playerHealthLabel.setText("()()");
+                playerHealthLabel.setText("()()");
             }
             if (mainGameScreen.playerHealth == 3) {
-            playerHealthLabel.setText("()(");
+                playerHealthLabel.setText("()(");
             }
             if (mainGameScreen.playerHealth == 2) {
-            playerHealthLabel.setText("()");
+                playerHealthLabel.setText("()");
             }
             if (mainGameScreen.playerHealth == 1) {
-            playerHealthLabel.setText("(");
+                playerHealthLabel.setText("(");
             }
             if (mainGameScreen.playerHealth <= 0) {
-            mainGameScreen.repaint();
+                mainGameScreen.repaint();
             }
 
+        });
+        gamePlaying.setRepeats(true);
+        gamePlaying.start();
 
-                        // Inventory KeyListeners
-            KeyListener openInventory = new  KeyAdapter() {
+        Timer masterListenerUpdate = new Timer(fps,type_E -> {
+            gameWindow.setFocusable(true);
+            gameWindow.requestFocusInWindow();
+
+            // ONE key listener attached to the main window
+            gameWindow.addKeyListener(new KeyAdapter() {
                 @Override
                 public void keyPressed(KeyEvent e) {
-                        if (e.getKeyCode()==KeyEvent.VK_E) {
+                    // Only allow input if the game is actually running
+                    if (!createWorldPressed[0]) return;
+                    int key = e.getKeyCode();
+
+                    // INVENTORY MECHANICS
+                    if (key == KeyEvent.VK_E) {
+                        if (!inventoryExitButton.isVisible()) {
                             breakButton.setVisible(false);
-                            showInventoryButtons(inventoryButton1, inventoryButton2, inventoryButton3, inventoryButton4, inventoryButton5,
-                                    inventoryButton6, inventoryButton7, inventoryButton8, inventoryButton9, inventoryButton10,
-                                    inventoryButton11, inventoryButton12, inventoryButton13, inventoryButton14, inventoryButton15,
-                                    inventoryButton16, inventoryButton17, inventoryButton18, inventoryButton19, inventoryButton20,
-                                    inventoryButton21, inventoryButton22, inventoryButton23, inventoryButton24,
-                                    inventoryButton25, inventoryButton26, inventoryButton27);
+                            showInventoryButtons(inventoryButton1,inventoryButton2,inventoryButton3,inventoryButton4,inventoryButton5,
+                                    inventoryButton6,inventoryButton7,inventoryButton8,inventoryButton9,inventoryButton10,
+                                    inventoryButton11, inventoryButton12,inventoryButton13,inventoryButton14,inventoryButton15,
+                                    inventoryButton16,inventoryButton17,inventoryButton18,inventoryButton19,inventoryButton20,
+                                    inventoryButton21,inventoryButton22,inventoryButton23,inventoryButton24,
+                                    inventoryButton25,inventoryButton26,inventoryButton27);
                             showButtons(helmetButton, chestplateButton, leggingsButton);
                             bootsButton.setVisible(true);
                             inventoryExitButton.setVisible(true);
-                        };
-                }
-            };
-
-            if (createWorldPressed[0] && !inventoryExitButton.isVisible()) {
-                inventoryButton.addKeyListener(openInventory);
-            }
-                // Commands/Chat/Exit keyListeners
-
-            KeyListener closeInventory = new  KeyAdapter() {
-                    @Override
-                    public void keyPressed(KeyEvent e) {
-                        if (e.getKeyCode()==KeyEvent.VK_E) {
-                            hideInventoryButtons(inventoryButton1, inventoryButton2, inventoryButton3, inventoryButton4, inventoryButton5,
-                                    inventoryButton6, inventoryButton7, inventoryButton8, inventoryButton9, inventoryButton10,
-                                    inventoryButton11, inventoryButton12, inventoryButton13, inventoryButton14, inventoryButton15,
-                                    inventoryButton16, inventoryButton17, inventoryButton18, inventoryButton19, inventoryButton20,
-                                    inventoryButton21, inventoryButton22, inventoryButton23, inventoryButton24,
-                                    inventoryButton25, inventoryButton26, inventoryButton27);
+                        } else {
+                            hideInventoryButtons(inventoryButton1,inventoryButton2,inventoryButton3,inventoryButton4,inventoryButton5,
+                                    inventoryButton6,inventoryButton7,inventoryButton8,inventoryButton9,inventoryButton10,
+                                    inventoryButton11, inventoryButton12,inventoryButton13,inventoryButton14,inventoryButton15,
+                                    inventoryButton16,inventoryButton17,inventoryButton18,inventoryButton19,inventoryButton20,
+                                    inventoryButton21,inventoryButton22,inventoryButton23,inventoryButton24,
+                                    inventoryButton25,inventoryButton26,inventoryButton27);
                             hideButtons(helmetButton, chestplateButton, leggingsButton);
                             bootsButton.setVisible(false);
                             inventoryExitButton.setVisible(false);
                             breakButton.setVisible(true);
-                            showHotbarButtons(hotbarButton1,hotbarButton2,hotbarButton3,hotbarButton4,hotbarButton5,hotbarButton6,hotbarButton7,hotbarButton8,hotbarButton9);
+                            showHotbarButtons(hotbarButton1, hotbarButton2, hotbarButton3,hotbarButton4,hotbarButton5,hotbarButton6,hotbarButton7,hotbarButton8,hotbarButton9);
+                        }
+                    }
+
+                    // EXIT MECHANICS
+                    if (key == KeyEvent.VK_ESCAPE) {
+                        return;
+                    }
+
+                    //  MOVEMENT MECHANICS
+                    // make so player can't move if block next to him
+
+                    if (!inventoryExitButton.isVisible()) {
+                        if (key == KeyEvent.VK_W) {
+                            steve.playerYMovement[0] -= 5; // Negative Y goes UP the screen in Java
+                        }
+                        if (key == KeyEvent.VK_S) {
+                            steve.playerYMovement[0] += 5; // Positive Y goes DOWN
+                        }
+                        if (key == KeyEvent.VK_A) {
+                            steve.playerXMovement[0] -= 5;
+                        }
+                        if (key == KeyEvent.VK_D) {
+                            steve.playerXMovement[0] += 5;
+                        }
+                        if (key == KeyEvent.VK_SPACE) {
+                            steve.playerZMovement[0] +=2;
+                        }
+
+                        // Update Steve's location on the screen
+                        steve.setLocation(steve.playerXMovement[0], steve.playerYMovement[0]);
+                        steve.repaint();
                     }
                 }
-            };
+            });
+        });
+        masterListenerUpdate.setRepeats(true);
+        masterListenerUpdate.start();
 
-            if (createWorldPressed[0] && inventoryExitButton.isVisible()) {
-                inventoryExitButton.addKeyListener(closeInventory);
-            }
-            KeyListener exitGame = new  KeyAdapter() {
-                @Override
-                public void keyPressed(KeyEvent e) {
-                    if (e.getKeyCode()==KeyEvent.VK_ESCAPE) {
-                        hideInventoryButtons(inventoryButton1, inventoryButton2, inventoryButton3, inventoryButton4, inventoryButton5,
-                                inventoryButton6, inventoryButton7, inventoryButton8, inventoryButton9, inventoryButton10,
-                                inventoryButton11, inventoryButton12, inventoryButton13, inventoryButton14, inventoryButton15,
-                                inventoryButton16, inventoryButton17, inventoryButton18, inventoryButton19, inventoryButton20,
-                                inventoryButton21, inventoryButton22, inventoryButton23, inventoryButton24,
-                                inventoryButton25, inventoryButton26, inventoryButton27);
-                        hideButtons(helmetButton, chestplateButton, leggingsButton);
-                        bootsButton.setVisible(false);
-                        inventoryExitButton.setVisible(false);
-                        breakButton.setVisible(false);
-                        hideHotbarButtons(hotbarButton1,hotbarButton2,hotbarButton3,hotbarButton4,hotbarButton5,hotbarButton6,hotbarButton7,hotbarButton8,hotbarButton9);
-                    }
-                }
-            };
-            if (createWorldPressed[0]) {
-                inventoryExitButton.addKeyListener(exitGame);
-            }
-
-
-        // Moving keyListeners
-        KeyListener forwardMover = new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_W) {
-                    // if no block in front
-                    steve.playerYMovement[0]++;
-                    steve.setLocation(
-                            steve.playerXMovement[0],
-                            steve.playerYMovement[0]
-                    );
-                    steve.repaint();
-                }
-            }
-        };
-        if (createWorldPressed[0]) {
-            steve.addKeyListener(forwardMover);
-        }
-        KeyListener backwardMover = new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_S) {
-                    // if no block behind
-                    steve.playerYMovement[0]--;
-                    steve.setLocation(
-                            steve.playerXMovement[0],
-                            steve.playerYMovement[0]
-                    );
-                    steve.repaint();
-                }
-            }
-        };
-        if (createWorldPressed[0]) {
-            //steve.addKeyListener(backwardMover);
-        }
-        KeyListener leftMover = new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_A) {
-                    // if no block to left
-                    steve.playerXMovement[0]--;
-                    steve.setLocation(
-                            steve.playerXMovement[0],
-                            steve.playerYMovement[0]
-                    );
-                    steve.repaint();
-                }
-            }
-        };
-        if (createWorldPressed[0]) {
-            steve.addKeyListener(leftMover);
-        }
-        KeyListener rightMover = new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_D) {
-                    // if no block to right
-                    steve.playerXMovement[0]++;
-                    steve.setLocation(
-                            steve.playerXMovement[0],
-                            steve.playerYMovement[0]
-                    );
-                    steve.repaint();
-                }
-            }
-        };
-        if (createWorldPressed[0]) {
-            steve.addKeyListener(rightMover);
-        }
-        KeyListener upMover = new KeyAdapter() {
-            @Override
-            public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == KeyEvent.VK_UP) {
-                    steve.playerZMovement[0]++;
-                    steve.repaint();
-                }
-            }
-        };
-        if (createWorldPressed[0]) {
-            steve.addKeyListener(upMover);
-        }
-
-
-    customizeButton.addActionListener(click -> {
-        hideButtons(survivalButton, creativeButton, adventureButton);
-        hideButtons(superflatButton, amplifiedButton, default1);
-        worldTypeButton.setVisible(false);
-        gameModeButton.setVisible(false);
-        worldCreationBackdrop.isCustom = true;
-        worldCreationBackdrop.repaint();
-        showButtons(redButton, blueButton, greenButton);
-        showButtons(lessRedButton, lessBlueButton, lessGreenButton);
-        showButtons(gameButton, customizeButton, worldSettingsButton);
-    });
-            redButton.addActionListener(click -> {
+        customizeButton.addActionListener(click -> {
+            hideButtons(survivalButton, creativeButton, adventureButton);
+            hideButtons(superflatButton, amplifiedButton, default1);
+            worldTypeButton.setVisible(false);
+            gameModeButton.setVisible(false);
+            worldCreationBackdrop.isCustom = true;
+            worldCreationBackdrop.repaint();
+            showButtons(redButton, blueButton, greenButton);
+            showButtons(lessRedButton, lessBlueButton, lessGreenButton);
+            showButtons(gameButton, customizeButton, worldSettingsButton);
+            fpsButton.setVisible(false);
+            fpsSlider.setVisible(false);
+        });
+        redButton.addActionListener(click -> {
             worldCreationBackdrop.redPlayerColor =
                     Math.min(255, worldCreationBackdrop.redPlayerColor + 17);
             worldCreationBackdrop.repaint();
-            });
+        });
 
-            lessRedButton.addActionListener(click -> {
-                worldCreationBackdrop.redPlayerColor =
-                        Math.max(0, worldCreationBackdrop.redPlayerColor - 17);
-                worldCreationBackdrop.repaint();
-            });
+        lessRedButton.addActionListener(click -> {
+            worldCreationBackdrop.redPlayerColor =
+                    Math.max(0, worldCreationBackdrop.redPlayerColor - 17);
+            worldCreationBackdrop.repaint();
+        });
 
-            blueButton.addActionListener(click -> {
-                worldCreationBackdrop.bluePlayerColor =
-                        Math.min(255, worldCreationBackdrop.bluePlayerColor + 17);
-                worldCreationBackdrop.repaint();
-            });
+        blueButton.addActionListener(click -> {
+            worldCreationBackdrop.bluePlayerColor =
+                    Math.min(255, worldCreationBackdrop.bluePlayerColor + 17);
+            worldCreationBackdrop.repaint();
+        });
 
-            lessBlueButton.addActionListener(click -> {
-                worldCreationBackdrop.bluePlayerColor =
-                        Math.max(0, worldCreationBackdrop.bluePlayerColor - 17);
-                worldCreationBackdrop.repaint();
-            });
+        lessBlueButton.addActionListener(click -> {
+            worldCreationBackdrop.bluePlayerColor =
+                    Math.max(0, worldCreationBackdrop.bluePlayerColor - 17);
+            worldCreationBackdrop.repaint();
+        });
 
-            greenButton.addActionListener(click -> {
-                worldCreationBackdrop.greenPlayerColor =
-                        Math.min(255, worldCreationBackdrop.greenPlayerColor + 17);
-                worldCreationBackdrop.repaint();
-            });
+        greenButton.addActionListener(click -> {
+            worldCreationBackdrop.greenPlayerColor =
+                    Math.min(255, worldCreationBackdrop.greenPlayerColor + 17);
+            worldCreationBackdrop.repaint();
+        });
 
-            lessGreenButton.addActionListener(click -> {
-                worldCreationBackdrop.greenPlayerColor =
-                        Math.max(0, worldCreationBackdrop.greenPlayerColor - 17);
-                worldCreationBackdrop.repaint();
-            });
+        lessGreenButton.addActionListener(click -> {
+            worldCreationBackdrop.greenPlayerColor =
+                    Math.max(0, worldCreationBackdrop.greenPlayerColor - 17);
+            worldCreationBackdrop.repaint();
+        });
 
         gameButton.addActionListener(click -> {
             hideButtons(redButton, blueButton, greenButton);
@@ -990,29 +926,43 @@ public class JavaGame {
             if (!survivalButton.isVisible() && !adventureButton.isVisible() && !creativeButton.isVisible()) {
                 gameModeButton.setVisible(true);
             }
+            if (!fpsSlider.isVisible()) {
+                fpsButton.setVisible(true);
+            }
             showButtons(gameButton, customizeButton, worldSettingsButton);
+            fpsButton.setVisible(true);
+            fpsSlider.setVisible(true);
         });
-                gameModeButton.addActionListener(click -> {
-                    gameModeButton.setVisible(false);
-                    showButtons(survivalButton, adventureButton, creativeButton);
-                });
-                        survivalButton.addActionListener(click -> {
-                        hideButtons(survivalButton, creativeButton, adventureButton);
-                        gameModeButton.setVisible(true);
-                        gameModeButton.setText("Survival");
-                        });
+        gameModeButton.addActionListener(click -> {
+            gameModeButton.setVisible(false);
+            fpsButton.setVisible(false);
+            fpsSlider.setVisible(false);
+            showButtons(survivalButton, adventureButton, creativeButton);
+        });
+            survivalButton.addActionListener(click -> {
+                hideButtons(survivalButton, creativeButton, adventureButton);
+                gameModeButton.setVisible(true);
+                gameModeButton.setText("Survival");
+            });
 
-                        creativeButton.addActionListener(click -> {
-                            hideButtons(survivalButton, creativeButton, adventureButton);
-                            gameModeButton.setVisible(true);
-                            gameModeButton.setText("Creative");
-                        });
+            creativeButton.addActionListener(click -> {
+                hideButtons(survivalButton, creativeButton, adventureButton);
+                gameModeButton.setVisible(true);
+                gameModeButton.setText("Creative");
+            });
 
-                        adventureButton.addActionListener(click -> {
-                            hideButtons(adventureButton, survivalButton, creativeButton);
-                            gameModeButton.setVisible(true);
-                            gameModeButton.setText("Adventure");
-                        });
+            adventureButton.addActionListener(click -> {
+                hideButtons(adventureButton, survivalButton, creativeButton);
+                gameModeButton.setVisible(true);
+                gameModeButton.setText("Adventure");
+            });
+        fpsButton.addActionListener(click ->{
+            hideButtons(adventureButton, survivalButton, creativeButton);
+            gameModeButton.setVisible(false);
+            fpsButton.setVisible(false);
+            fpsSlider.setVisible(true);
+            //fps=fpsSlider;
+        });
 
         worldSettingsButton.addActionListener(click -> {
             hideButtons(redButton, blueButton, greenButton);
@@ -1025,30 +975,32 @@ public class JavaGame {
             if (!amplifiedButton.isVisible() && !superflatButton.isVisible() && !default1.isVisible()) {
                 worldTypeButton.setVisible(true);
             }
+            if (!fpsSlider.isVisible()) {
+                fpsButton.setVisible(true);
+            }
+            fpsSlider.setVisible(false);
         });
-                worldTypeButton.addActionListener(click -> {
-                    worldTypeButton.setVisible(false);
-                    showButtons(amplifiedButton, superflatButton, default1);
-                });
-                            superflatButton.addActionListener(click -> {
-                                hideButtons(superflatButton, default1, amplifiedButton);
-                                worldTypeButton.setVisible(true);
-                                worldTypeButton.setText("Superflat");
-                            });
+        worldTypeButton.addActionListener(click -> {
+            worldTypeButton.setVisible(false);
+            showButtons(amplifiedButton, superflatButton, default1);
+        });
+        superflatButton.addActionListener(click -> {
+            hideButtons(superflatButton, default1, amplifiedButton);
+            worldTypeButton.setVisible(true);
+            worldTypeButton.setText("Superflat");
+        });
 
-                            default1.addActionListener(click -> {
-                                hideButtons(superflatButton, default1, amplifiedButton);
-                                worldTypeButton.setVisible(true);
-                                worldTypeButton.setText("Default");
-                            });
+        default1.addActionListener(click -> {
+            hideButtons(superflatButton, default1, amplifiedButton);
+            worldTypeButton.setVisible(true);
+            worldTypeButton.setText("Default");
+        });
 
-                            amplifiedButton.addActionListener(click -> {
-                                hideButtons(superflatButton, default1, amplifiedButton);
-                                worldTypeButton.setVisible(true);
-                                worldTypeButton.setText("Amplified");
-                            });
-
-
+        amplifiedButton.addActionListener(click -> {
+            hideButtons(superflatButton, default1, amplifiedButton);
+            worldTypeButton.setVisible(true);
+            worldTypeButton.setText("Amplified");
+        });
     }
 
     public static void setButtonCenter(

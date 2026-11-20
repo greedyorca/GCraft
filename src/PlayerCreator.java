@@ -6,9 +6,9 @@ import java.io.File;
 import java.io.IOException;
 
 public class PlayerCreator extends JPanel {
-    public final int[] playerXMovement = new int [1];
-    public final int[] playerYMovement = new int [1];
-    public final int[] playerZMovement = new int [1];
+    public int[] playerXMovement = new int [1];
+    public int[] playerYMovement = new int [1];
+    public int[] playerZMovement = new int [1];
 
     private BufferedImage Steve;
 
