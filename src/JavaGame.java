@@ -150,6 +150,8 @@ public class JavaGame {
         layers.add(superflatButton, 2);
         layers.add(default1, 2);
         layers.add(amplifiedButton, 2);
+        layers.add(fpsButton,2);
+        layers.add(fpsSlider,2);
 
     // Actual Game Screen Adders
         // Movement
